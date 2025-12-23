@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
     #Database
-    DATABASE_DB_PATH: str = "uth.db"
+    DATABASE_DB_PATH: str = "auth.db"
 
     class Config:
         env_file = ".env"
